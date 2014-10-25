@@ -5,7 +5,7 @@
 * 成人/黄色/黄的：随机发送一个成人笑话
 * [其他……]：可以和你聊天
 === 关注微信
-<img src="http://www.dousile.com/images/qrcode.jpg" />
+http://www.dousile.com/images/qrcode.jpg
 === 开发信息
 * 语言：ruby + rails
 * 工具：TextMate
