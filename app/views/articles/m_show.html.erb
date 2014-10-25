@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title><%=@article.title%> - 逗死了</title>
+	<meta charset="utf-8" />
+	<meta content="width=device-width,user-scalable=no" name="viewport"> 
+	<style type="text/css">
+	html,body { margin:0px; padding:0px; background-color:#fff; }
+	body { font: normal 100% Helvetica, Arial, sans-serif; }
+	h1 { font-size: 1.4em; color:#000; }
+	h1, h2, h3 { -webkit-font-smoothing: antialiased; font-style: normal; margin: 0 auto; }
+	img{max-width: 100%; height: auto; width: auto;}
+	.l { float:left; }
+	.r { float:right;}
+	a { color: #000; text-decoration:none; }
+	
+	#page { margin:0 auto; padding:0px; }
+	.wrap { padding:0 8px; }
+	
+	#header { margin: 10px 0px; }
+	h1.title { padding: 2px 0px; }
+	span.rq { color:grey; font-size:0.85em; margin-right:1em; }
+	span.from { color:grey; font-size:0.85em; }
+
+	#content { margin: 2px 0px; }
+	div.text { padding: 5px 0px; font-size:1em; line-height:160%; }
+	
+	#footer { background-color:#f8f7f5; font-size:0.85em; height:3em; line-height: 3em; color:grey; padding:10px }
+	#footer a { color:grey; }
+	</style>
+</head>
+
+<body>
+	<div id="page">
+		<div id="header" class="wrap"><h1><%=@article.title%></h1>
+			<span class="rq"><%=showtime @article.pubtime%></span>
+				<span class="from">逗死了</span>
+		</div>
+		<div id="content" class="wrap">
+			<% if @article.haspic %>
+			<div class="pic"><img src="http://dousile.b0.upaiyun.com<%=@article.picpath%>!v2" /></div>
+			<% end %>
+			<div class="text"><%=raw @article.content%></div>
+		</div>
+		<div id="footer">
+			<div class="l">阅读 <%=@article.hitt.next%> </div>
+			<div class="r"><a href="fa.htm">我要发布</a>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>后台管理 - 逗死了</title>
+   <%= stylesheet_link_tag "/bootstrap/css/bootstrap.min.css", media: "all" %>
+   <%= javascript_include_tag "admin" %>
+   <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="container">
+
+	<nav class="navbar navbar-default" role="navigation">
+	   <div class="navbar-header">
+	      <a class="navbar-brand" href="/admin/articles">逗死了后台管理</a>
+	   </div>
+	   <div>
+	      <ul class="nav navbar-nav">
+	         <li><a href="/admin/articles">文章列表</a></li>
+	         <li><a href="/admin/articles/st1">待审核</a></li>
+			 <li><a href="/admin/articles/st2">已删除</a></li>
+			 <li><a href="/admin/upyun">图片管理</a></li>
+	      </ul>
+	   </div>
+	  <div class="navbar-text navbar-right btn-group-sm" style="padding-right:15px; margin-bottom:5px;">
+		  <% if(session[:admin_name] != nil) %>
+		  当前用户：<%=session[:admin_name]%> &nbsp;
+		  <a class="btn btn-info" href="/admin/logout" role="button" style="padding:2px;">安全退出</a>
+		  <% elsif(params[:notice] == 'logout') %>
+		  <span class="label label-success">已安全退出</span>
+		  <% end %>
+	  </div>
+	</nav>
+	
+	<%= yield %>
+
+</div>
+</body>
+</html>

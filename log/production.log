@@ -1,0 +1,2012 @@
+I, [2014-10-23T02:23:13.419818 #7341]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-23 02:23:13 +0800
+F, [2014-10-23T02:23:13.429119 #7341] FATAL -- : 
+Mysql2::Error (Access denied for user ''@'localhost' to database 'dousile_production'):
+  mysql2 (0.3.16) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.16) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:23:13.552280 #7341]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2014-10-23 02:23:13 +0800
+F, [2014-10-23T02:23:13.554329 #7341] FATAL -- : 
+Mysql2::Error (Access denied for user ''@'localhost' to database 'dousile_production'):
+  mysql2 (0.3.16) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.16) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:32:12.784895 #7442]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-23 02:32:12 +0800
+F, [2014-10-23T02:32:12.794031 #7442] FATAL -- : 
+ActiveRecord::NoDatabaseError (Unknown database 'dousile_production'Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:32:12.894962 #7442]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2014-10-23 02:32:12 +0800
+F, [2014-10-23T02:32:12.897196 #7442] FATAL -- : 
+ActiveRecord::NoDatabaseError (Unknown database 'dousile_production'Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:32:22.557248 #7442]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-23 02:32:22 +0800
+F, [2014-10-23T02:32:22.560798 #7442] FATAL -- : 
+ActiveRecord::NoDatabaseError (Unknown database 'dousile_production'Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:32:22.659740 #7442]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2014-10-23 02:32:22 +0800
+F, [2014-10-23T02:32:22.662644 #7442] FATAL -- : 
+ActiveRecord::NoDatabaseError (Unknown database 'dousile_production'Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:32:26.435492 #7442]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-23 02:32:26 +0800
+F, [2014-10-23T02:32:26.437265 #7442] FATAL -- : 
+ActiveRecord::NoDatabaseError (Unknown database 'dousile_production'Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:32:26.527228 #7442]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2014-10-23 02:32:26 +0800
+F, [2014-10-23T02:32:26.529208 #7442] FATAL -- : 
+ActiveRecord::NoDatabaseError (Unknown database 'dousile_production'Run `$ bin/rake db:create db:migrate` to create your database):
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:435:in `new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:445:in `checkout_new_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:416:in `acquire_connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:350:in `checkout'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:541:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.1.6) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:33:57.263804 #7465]  INFO -- : Migrating to CreateArticles (20141019030912)
+I, [2014-10-23T02:34:30.461484 #7442]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-23 02:34:30 +0800
+I, [2014-10-23T02:34:30.469146 #7442]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-23T02:34:30.479137 #7442]  INFO -- :   Rendered articles/admin/login.html.erb (1.0ms)
+I, [2014-10-23T02:34:30.479390 #7442]  INFO -- : Completed 200 OK in 10ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T02:34:30.745820 #7442]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2014-10-23 02:34:30 +0800
+F, [2014-10-23T02:34:30.747058 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:35.804527 #7442]  INFO -- : Started POST "/admin/login" for 127.0.0.1 at 2014-10-23 02:34:35 +0800
+I, [2014-10-23T02:34:35.805393 #7442]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-23T02:34:35.805433 #7442]  INFO -- :   Parameters: {"authenticity_token"=>"hh7gfFilgAFbSe3K/8PbZqFn2BCz9Xhs2mMd7TAiCNg=", "name"=>"jeky", "pass"=>"jeky2329"}
+I, [2014-10-23T02:34:35.806170 #7442]  INFO -- : Redirected to http://localhost:4000/admin/articles
+I, [2014-10-23T02:34:35.806265 #7442]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2014-10-23T02:34:35.810968 #7442]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 02:34:35 +0800
+I, [2014-10-23T02:34:35.811723 #7442]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T02:34:35.815857 #7442]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (2.4ms)
+I, [2014-10-23T02:34:35.817356 #7442]  INFO -- : Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.7ms)
+I, [2014-10-23T02:34:35.847119 #7442]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:34:35 +0800
+F, [2014-10-23T02:34:35.848908 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:35.852260 #7442]  INFO -- : Started GET "/jquery/2.0.0/jquery.min.js" for 127.0.0.1 at 2014-10-23 02:34:35 +0800
+F, [2014-10-23T02:34:35.856369 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/jquery/2.0.0/jquery.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:35.858484 #7442]  INFO -- : Started GET "/javascripts/admin.js" for 127.0.0.1 at 2014-10-23 02:34:35 +0800
+F, [2014-10-23T02:34:35.859693 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/admin.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:35.860304 #7442]  INFO -- : Started GET "/bootstrap/js/bootstrap.min.js" for 127.0.0.1 at 2014-10-23 02:34:35 +0800
+F, [2014-10-23T02:34:35.861269 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/js/bootstrap.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:35.867602 #7442]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 02:34:35 +0800
+I, [2014-10-23T02:34:35.868768 #7442]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T02:34:36.052880 #7442]  INFO -- :   Rendered articles/admin/new.html.erb (8.3ms)
+I, [2014-10-23T02:34:36.053092 #7442]  INFO -- : Completed 200 OK in 184ms (Views: 9.7ms | ActiveRecord: 1.7ms)
+I, [2014-10-23T02:34:36.093324 #7442]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:34:36 +0800
+F, [2014-10-23T02:34:36.097521 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:36.098158 #7442]  INFO -- : Started GET "/jquery/2.0.0/jquery.min.js" for 127.0.0.1 at 2014-10-23 02:34:36 +0800
+F, [2014-10-23T02:34:36.099303 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/jquery/2.0.0/jquery.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:36.116037 #7442]  INFO -- : Started GET "/bootstrap/js/bootstrap.min.js" for 127.0.0.1 at 2014-10-23 02:34:36 +0800
+F, [2014-10-23T02:34:36.117245 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/js/bootstrap.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:36.119703 #7442]  INFO -- : Started GET "/tinymce/tinymce.min.js" for 127.0.0.1 at 2014-10-23 02:34:36 +0800
+F, [2014-10-23T02:34:36.121223 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/tinymce/tinymce.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:38.655523 #7442]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+I, [2014-10-23T02:34:38.656347 #7442]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T02:34:38.657578 #7442]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.5ms)
+I, [2014-10-23T02:34:38.658120 #7442]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+I, [2014-10-23T02:34:38.692759 #7442]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+F, [2014-10-23T02:34:38.694102 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:38.699420 #7442]  INFO -- : Started GET "/jquery/2.0.0/jquery.min.js" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+F, [2014-10-23T02:34:38.700677 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/jquery/2.0.0/jquery.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:38.701347 #7442]  INFO -- : Started GET "/bootstrap/js/bootstrap.min.js" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+F, [2014-10-23T02:34:38.702783 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/js/bootstrap.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:38.703676 #7442]  INFO -- : Started GET "/javascripts/admin.js" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+F, [2014-10-23T02:34:38.704720 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/admin.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:38.710202 #7442]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+I, [2014-10-23T02:34:38.710928 #7442]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T02:34:38.713296 #7442]  INFO -- :   Rendered articles/admin/new.html.erb (1.3ms)
+I, [2014-10-23T02:34:38.713445 #7442]  INFO -- : Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T02:34:38.781505 #7442]  INFO -- : Started GET "/jquery/2.0.0/jquery.min.js" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+F, [2014-10-23T02:34:38.784142 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/jquery/2.0.0/jquery.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:38.790445 #7442]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+F, [2014-10-23T02:34:38.794111 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:38.796153 #7442]  INFO -- : Started GET "/bootstrap/js/bootstrap.min.js" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+F, [2014-10-23T02:34:38.797660 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/js/bootstrap.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:38.798706 #7442]  INFO -- : Started GET "/tinymce/tinymce.min.js" for 127.0.0.1 at 2014-10-23 02:34:38 +0800
+F, [2014-10-23T02:34:38.799973 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/tinymce/tinymce.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:45.095799 #7442]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:34:45 +0800
+F, [2014-10-23T02:34:45.096839 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:34:54.141043 #7442]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:34:54 +0800
+F, [2014-10-23T02:34:54.142206 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:35:33.693772 #7442]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:35:33 +0800
+F, [2014-10-23T02:35:33.694648 #7442] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:31.395892 #7479]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+I, [2014-10-23T02:37:31.410382 #7479]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T02:37:31.421162 #7479]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (2.0ms)
+I, [2014-10-23T02:37:31.422639 #7479]  INFO -- : Completed 200 OK in 12ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T02:37:31.455380 #7479]  INFO -- : Started GET "/jquery/2.0.0/jquery.min.js" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+F, [2014-10-23T02:37:31.459404 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/jquery/2.0.0/jquery.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:31.464449 #7479]  INFO -- : Started GET "/bootstrap/js/bootstrap.min.js" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+F, [2014-10-23T02:37:31.465782 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/js/bootstrap.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:31.466877 #7479]  INFO -- : Started GET "/assets/admin-2f8df8f5ae8e47a7a5c46f93d2908ac6.js" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+F, [2014-10-23T02:37:31.468426 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/admin-2f8df8f5ae8e47a7a5c46f93d2908ac6.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:31.471484 #7479]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+F, [2014-10-23T02:37:31.472937 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:31.481985 #7479]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+I, [2014-10-23T02:37:31.483390 #7479]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T02:37:31.695076 #7479]  INFO -- :   Rendered articles/admin/new.html.erb (6.5ms)
+I, [2014-10-23T02:37:31.695907 #7479]  INFO -- : Completed 200 OK in 212ms (Views: 8.0ms | ActiveRecord: 2.8ms)
+I, [2014-10-23T02:37:31.765929 #7479]  INFO -- : Started GET "/bootstrap/js/bootstrap.min.js" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+F, [2014-10-23T02:37:31.770571 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/js/bootstrap.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:31.773209 #7479]  INFO -- : Started GET "/jquery/2.0.0/jquery.min.js" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+F, [2014-10-23T02:37:31.775249 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/jquery/2.0.0/jquery.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:31.776154 #7479]  INFO -- : Started GET "/tinymce/tinymce.min.js" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+F, [2014-10-23T02:37:31.777463 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/tinymce/tinymce.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:31.784175 #7479]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:37:31 +0800
+F, [2014-10-23T02:37:31.785383 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:36.838354 #7479]  INFO -- : Started GET "/assets/admin-2f8df8f5ae8e47a7a5c46f93d2908ac6.js" for 127.0.0.1 at 2014-10-23 02:37:36 +0800
+F, [2014-10-23T02:37:36.839297 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/admin-2f8df8f5ae8e47a7a5c46f93d2908ac6.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:37:59.186743 #7479]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 02:37:59 +0800
+I, [2014-10-23T02:37:59.187509 #7479]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T02:37:59.188816 #7479]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T02:37:59.189373 #7479]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T02:38:01.319472 #7479]  INFO -- : Started GET "/jquery/2.0.0/jquery.min.js" for 127.0.0.1 at 2014-10-23 02:38:01 +0800
+F, [2014-10-23T02:38:01.320415 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/jquery/2.0.0/jquery.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:39:51.006044 #7479]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 02:39:51 +0800
+I, [2014-10-23T02:39:51.007750 #7479]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T02:39:51.010857 #7479]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (1.7ms)
+I, [2014-10-23T02:39:51.011976 #7479]  INFO -- : Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 1.3ms)
+I, [2014-10-23T02:39:51.322273 #7479]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 02:39:51 +0800
+I, [2014-10-23T02:39:51.322946 #7479]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T02:39:51.324143 #7479]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.5ms)
+I, [2014-10-23T02:39:51.324618 #7479]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+I, [2014-10-23T02:39:53.731194 #7479]  INFO -- : Started GET "/assets/admin-2f8df8f5ae8e47a7a5c46f93d2908ac6.js" for 127.0.0.1 at 2014-10-23 02:39:53 +0800
+F, [2014-10-23T02:39:53.732071 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/admin-2f8df8f5ae8e47a7a5c46f93d2908ac6.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:42:06.076631 #7479]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+I, [2014-10-23T02:42:06.077455 #7479]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T02:42:06.080622 #7479]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (1.0ms)
+I, [2014-10-23T02:42:06.081685 #7479]  INFO -- : Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+I, [2014-10-23T02:42:06.117150 #7479]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+F, [2014-10-23T02:42:06.118097 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:42:06.121697 #7479]  INFO -- : Started GET "/jquery/2.0.0/jquery.min.js" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+F, [2014-10-23T02:42:06.122565 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/jquery/2.0.0/jquery.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:42:06.124500 #7479]  INFO -- : Started GET "/bootstrap/js/bootstrap.min.js" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+F, [2014-10-23T02:42:06.125601 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/js/bootstrap.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:42:06.126349 #7479]  INFO -- : Started GET "/assets/admin-2f8df8f5ae8e47a7a5c46f93d2908ac6.js" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+F, [2014-10-23T02:42:06.127441 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/admin-2f8df8f5ae8e47a7a5c46f93d2908ac6.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:42:06.133514 #7479]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+I, [2014-10-23T02:42:06.134243 #7479]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T02:42:06.136835 #7479]  INFO -- :   Rendered articles/admin/new.html.erb (1.4ms)
+I, [2014-10-23T02:42:06.137039 #7479]  INFO -- : Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T02:42:06.178332 #7479]  INFO -- : Started GET "/jquery/2.0.0/jquery.min.js" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+F, [2014-10-23T02:42:06.183644 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/jquery/2.0.0/jquery.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:42:06.188685 #7479]  INFO -- : Started GET "/tinymce/tinymce.min.js" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+F, [2014-10-23T02:42:06.191858 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/tinymce/tinymce.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:42:06.192803 #7479]  INFO -- : Started GET "/bootstrap/js/bootstrap.min.js" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+F, [2014-10-23T02:42:06.193931 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/js/bootstrap.min.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:42:06.195229 #7479]  INFO -- : Started GET "/bootstrap/css/bootstrap.min.css" for 127.0.0.1 at 2014-10-23 02:42:06 +0800
+F, [2014-10-23T02:42:06.196539 #7479] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/bootstrap/css/bootstrap.min.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-23T02:42:13.994000 #7504]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 02:42:13 +0800
+I, [2014-10-23T02:42:14.007207 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T02:42:14.018320 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (2.2ms)
+I, [2014-10-23T02:42:14.019688 #7504]  INFO -- : Completed 200 OK in 12ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T02:42:14.099210 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 02:42:14 +0800
+I, [2014-10-23T02:42:14.100425 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T02:42:14.271299 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (5.2ms)
+I, [2014-10-23T02:42:14.271528 #7504]  INFO -- : Completed 200 OK in 171ms (Views: 6.0ms | ActiveRecord: 1.7ms)
+I, [2014-10-23T02:43:33.012312 #7504]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 02:43:33 +0800
+I, [2014-10-23T02:43:33.015148 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T02:43:33.017206 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T02:43:33.018231 #7504]  INFO -- : Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T02:43:33.095969 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 02:43:33 +0800
+I, [2014-10-23T02:43:33.096827 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T02:43:33.099665 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (1.5ms)
+I, [2014-10-23T02:43:33.099879 #7504]  INFO -- : Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T03:21:47.690492 #7504]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 03:21:47 +0800
+I, [2014-10-23T03:21:47.691525 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T03:21:47.691600 #7504]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T03:21:47.693140 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T03:21:47.693935 #7504]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T03:21:47.770246 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 03:21:47 +0800
+I, [2014-10-23T03:21:47.771216 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T03:21:47.775071 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (2.3ms)
+I, [2014-10-23T03:21:47.775338 #7504]  INFO -- : Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T03:21:48.508444 #7504]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 03:21:48 +0800
+I, [2014-10-23T03:21:48.509361 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T03:21:48.511075 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T03:21:48.511684 #7504]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+I, [2014-10-23T03:21:48.558189 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 03:21:48 +0800
+I, [2014-10-23T03:21:48.559139 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T03:21:48.562766 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (2.1ms)
+I, [2014-10-23T03:21:48.563014 #7504]  INFO -- : Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T03:21:49.643367 #7504]  INFO -- : Started GET "/admin/articles/st2" for 127.0.0.1 at 2014-10-23 03:21:49 +0800
+I, [2014-10-23T03:21:49.644424 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T03:21:49.644515 #7504]  INFO -- :   Parameters: {"state"=>"2"}
+I, [2014-10-23T03:21:49.646009 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T03:21:49.646653 #7504]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T03:21:49.696609 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 03:21:49 +0800
+I, [2014-10-23T03:21:49.697321 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T03:21:49.699917 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (1.5ms)
+I, [2014-10-23T03:21:49.700147 #7504]  INFO -- : Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T03:21:50.395464 #7504]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 03:21:50 +0800
+I, [2014-10-23T03:21:50.396376 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T03:21:50.396447 #7504]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T03:21:50.398064 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T03:21:50.398721 #7504]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T03:21:50.477584 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 03:21:50 +0800
+I, [2014-10-23T03:21:50.478519 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T03:21:50.482192 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (2.1ms)
+I, [2014-10-23T03:21:50.482457 #7504]  INFO -- : Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T03:21:51.101378 #7504]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 03:21:51 +0800
+I, [2014-10-23T03:21:51.102351 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T03:21:51.103899 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T03:21:51.104557 #7504]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T03:21:51.157249 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 03:21:51 +0800
+I, [2014-10-23T03:21:51.158013 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T03:21:51.160694 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (1.5ms)
+I, [2014-10-23T03:21:51.160906 #7504]  INFO -- : Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T03:21:51.807384 #7504]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 03:21:51 +0800
+I, [2014-10-23T03:21:51.808353 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T03:21:51.809838 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T03:21:51.810536 #7504]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.4ms)
+I, [2014-10-23T03:21:51.856264 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 03:21:51 +0800
+I, [2014-10-23T03:21:51.857315 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T03:21:51.861151 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (2.2ms)
+I, [2014-10-23T03:21:51.861418 #7504]  INFO -- : Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T03:21:52.978204 #7504]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 03:21:52 +0800
+I, [2014-10-23T03:21:52.978959 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T03:21:52.980256 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.5ms)
+I, [2014-10-23T03:21:52.980872 #7504]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T03:21:53.034380 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 03:21:53 +0800
+I, [2014-10-23T03:21:53.035172 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T03:21:53.037913 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (1.5ms)
+I, [2014-10-23T03:21:53.038152 #7504]  INFO -- : Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T03:26:11.169503 #7504]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 03:26:11 +0800
+I, [2014-10-23T03:26:11.170830 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T03:26:11.170917 #7504]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T03:26:11.172585 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T03:26:11.173207 #7504]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T03:26:11.239078 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 03:26:11 +0800
+I, [2014-10-23T03:26:11.239873 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T03:26:11.248308 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (6.8ms)
+I, [2014-10-23T03:26:11.248748 #7504]  INFO -- : Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T03:26:11.906361 #7504]  INFO -- : Started GET "/admin/articles/st2" for 127.0.0.1 at 2014-10-23 03:26:11 +0800
+I, [2014-10-23T03:26:11.907704 #7504]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T03:26:11.907797 #7504]  INFO -- :   Parameters: {"state"=>"2"}
+I, [2014-10-23T03:26:11.909488 #7504]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.8ms)
+I, [2014-10-23T03:26:11.910904 #7504]  INFO -- : Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+I, [2014-10-23T03:26:11.970121 #7504]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 03:26:11 +0800
+I, [2014-10-23T03:26:11.971182 #7504]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T03:26:11.975559 #7504]  INFO -- :   Rendered articles/admin/new.html.erb (2.6ms)
+I, [2014-10-23T03:26:11.975853 #7504]  INFO -- : Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:25:33.175759 #7851]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 05:25:33 +0800
+I, [2014-10-23T05:25:33.192025 #7851]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:25:33.201593 #7851]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (1.9ms)
+I, [2014-10-23T05:25:33.202833 #7851]  INFO -- : Completed 200 OK in 11ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:25:33.247498 #7851]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:25:33 +0800
+I, [2014-10-23T05:25:33.248641 #7851]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:25:33.395727 #7851]  INFO -- :   Rendered articles/admin/new.html.erb (4.9ms)
+I, [2014-10-23T05:25:33.395928 #7851]  INFO -- : Completed 200 OK in 147ms (Views: 5.6ms | ActiveRecord: 1.8ms)
+I, [2014-10-23T05:25:52.138332 #7851]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 05:25:52 +0800
+I, [2014-10-23T05:25:52.139140 #7851]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:25:52.140583 #7851]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:25:52.141328 #7851]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:25:52.177729 #7851]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:25:52 +0800
+I, [2014-10-23T05:25:52.178670 #7851]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:25:52.181095 #7851]  INFO -- :   Rendered articles/admin/new.html.erb (1.4ms)
+I, [2014-10-23T05:25:52.181267 #7851]  INFO -- : Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:25:52.848338 #7851]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 05:25:52 +0800
+I, [2014-10-23T05:25:52.849142 #7851]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:25:52.849201 #7851]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T05:25:52.850595 #7851]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T05:25:52.851082 #7851]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:25:52.900041 #7851]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:25:52 +0800
+I, [2014-10-23T05:25:52.901041 #7851]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:25:52.903778 #7851]  INFO -- :   Rendered articles/admin/new.html.erb (1.4ms)
+I, [2014-10-23T05:25:52.903971 #7851]  INFO -- : Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:25:53.588115 #7851]  INFO -- : Started GET "/admin/articles/st2" for 127.0.0.1 at 2014-10-23 05:25:53 +0800
+I, [2014-10-23T05:25:53.589073 #7851]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:25:53.589133 #7851]  INFO -- :   Parameters: {"state"=>"2"}
+I, [2014-10-23T05:25:53.590510 #7851]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:25:53.591023 #7851]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:25:53.631332 #7851]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:25:53 +0800
+I, [2014-10-23T05:25:53.632057 #7851]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:25:53.634461 #7851]  INFO -- :   Rendered articles/admin/new.html.erb (1.4ms)
+I, [2014-10-23T05:25:53.634640 #7851]  INFO -- : Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:25:54.366734 #7851]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 05:25:54 +0800
+I, [2014-10-23T05:25:54.367458 #7851]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:25:54.367523 #7851]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T05:25:54.368953 #7851]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T05:25:54.369767 #7851]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:25:54.406389 #7851]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:25:54 +0800
+I, [2014-10-23T05:25:54.407279 #7851]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:25:54.410073 #7851]  INFO -- :   Rendered articles/admin/new.html.erb (1.5ms)
+I, [2014-10-23T05:25:54.410304 #7851]  INFO -- : Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:25:55.506050 #7851]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 05:25:55 +0800
+I, [2014-10-23T05:25:55.506820 #7851]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:25:55.508173 #7851]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:25:55.508666 #7851]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:25:55.542673 #7851]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:25:55 +0800
+I, [2014-10-23T05:25:55.543591 #7851]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:25:55.546733 #7851]  INFO -- :   Rendered articles/admin/new.html.erb (1.6ms)
+I, [2014-10-23T05:25:55.546924 #7851]  INFO -- : Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:25:57.705953 #7851]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 05:25:57 +0800
+I, [2014-10-23T05:25:57.706750 #7851]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:25:57.706802 #7851]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T05:25:57.708082 #7851]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:25:57.708555 #7851]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:25:57.751577 #7851]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:25:57 +0800
+I, [2014-10-23T05:25:57.752404 #7851]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:25:57.754876 #7851]  INFO -- :   Rendered articles/admin/new.html.erb (1.4ms)
+I, [2014-10-23T05:25:57.755061 #7851]  INFO -- : Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:26:01.016416 #7851]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 05:26:01 +0800
+I, [2014-10-23T05:26:01.017283 #7851]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:26:01.017350 #7851]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T05:26:01.018797 #7851]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.5ms)
+I, [2014-10-23T05:26:01.019229 #7851]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+I, [2014-10-23T05:26:01.067113 #7851]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:26:01 +0800
+I, [2014-10-23T05:26:01.067835 #7851]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:26:01.070239 #7851]  INFO -- :   Rendered articles/admin/new.html.erb (1.3ms)
+I, [2014-10-23T05:26:01.070407 #7851]  INFO -- : Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:26:32.495230 #7870]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 05:26:32 +0800
+I, [2014-10-23T05:26:32.508534 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:26:32.508597 #7870]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T05:26:32.521731 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (5.0ms)
+I, [2014-10-23T05:26:32.522802 #7870]  INFO -- : Completed 200 OK in 14ms (Views: 4.9ms | ActiveRecord: 2.2ms)
+I, [2014-10-23T05:26:32.599420 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:26:32 +0800
+I, [2014-10-23T05:26:32.600571 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:26:32.752461 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (5.1ms)
+I, [2014-10-23T05:26:32.752663 #7870]  INFO -- : Completed 200 OK in 152ms (Views: 5.9ms | ActiveRecord: 0.2ms)
+I, [2014-10-23T05:27:07.233972 #7870]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 05:27:07 +0800
+I, [2014-10-23T05:27:07.235049 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:07.235131 #7870]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T05:27:07.236625 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:27:07.237078 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+I, [2014-10-23T05:27:07.305721 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:07 +0800
+I, [2014-10-23T05:27:07.306385 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:07.308958 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (1.4ms)
+I, [2014-10-23T05:27:07.309133 #7870]  INFO -- : Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:10.267110 #7870]  INFO -- : Started GET "/admin/articles/st2" for 127.0.0.1 at 2014-10-23 05:27:10 +0800
+I, [2014-10-23T05:27:10.268292 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:10.268378 #7870]  INFO -- :   Parameters: {"state"=>"2"}
+I, [2014-10-23T05:27:10.270122 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:27:10.270668 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:10.315457 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:10 +0800
+I, [2014-10-23T05:27:10.316404 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:10.320249 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (2.3ms)
+I, [2014-10-23T05:27:10.320503 #7870]  INFO -- : Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:11.282781 #7870]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 05:27:11 +0800
+I, [2014-10-23T05:27:11.283726 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:11.283784 #7870]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T05:27:11.285693 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.9ms)
+I, [2014-10-23T05:27:11.286360 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:11.333236 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:11 +0800
+I, [2014-10-23T05:27:11.334145 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:11.337901 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (2.2ms)
+I, [2014-10-23T05:27:11.338156 #7870]  INFO -- : Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:12.065446 #7870]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 05:27:12 +0800
+I, [2014-10-23T05:27:12.066256 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:12.067553 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:27:12.068048 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:12.132113 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:12 +0800
+I, [2014-10-23T05:27:12.133063 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:12.137262 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (2.6ms)
+I, [2014-10-23T05:27:12.137545 #7870]  INFO -- : Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:12.808039 #7870]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 05:27:12 +0800
+I, [2014-10-23T05:27:12.809032 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:12.810676 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T05:27:12.811168 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:12.870044 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:12 +0800
+I, [2014-10-23T05:27:12.871278 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:12.875301 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (2.4ms)
+I, [2014-10-23T05:27:12.875551 #7870]  INFO -- : Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:13.576521 #7870]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 05:27:13 +0800
+I, [2014-10-23T05:27:13.577202 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:13.578435 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.5ms)
+I, [2014-10-23T05:27:13.578910 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:13.627220 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:13 +0800
+I, [2014-10-23T05:27:13.628164 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:13.631513 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (1.8ms)
+I, [2014-10-23T05:27:13.631707 #7870]  INFO -- : Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:14.153206 #7870]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 05:27:14 +0800
+I, [2014-10-23T05:27:14.154183 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:14.154247 #7870]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T05:27:14.155535 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:27:14.156010 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:14.208425 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:14 +0800
+I, [2014-10-23T05:27:14.209299 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:14.213122 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (2.3ms)
+I, [2014-10-23T05:27:14.213363 #7870]  INFO -- : Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:14.811081 #7870]  INFO -- : Started GET "/admin/articles/st2" for 127.0.0.1 at 2014-10-23 05:27:14 +0800
+I, [2014-10-23T05:27:14.812005 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:14.812082 #7870]  INFO -- :   Parameters: {"state"=>"2"}
+I, [2014-10-23T05:27:14.813470 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:27:14.814107 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:14.865038 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:14 +0800
+I, [2014-10-23T05:27:14.865940 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:14.873715 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (5.7ms)
+I, [2014-10-23T05:27:14.873975 #7870]  INFO -- : Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:17.625582 #7870]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-23 05:27:17 +0800
+I, [2014-10-23T05:27:17.626607 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:17.626690 #7870]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-23T05:27:17.628217 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:27:17.628861 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:17.675091 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:17 +0800
+I, [2014-10-23T05:27:17.675969 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:17.679732 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (2.3ms)
+I, [2014-10-23T05:27:17.679997 #7870]  INFO -- : Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:23.952511 #7870]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 05:27:23 +0800
+I, [2014-10-23T05:27:23.953394 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:23.955023 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.7ms)
+I, [2014-10-23T05:27:23.955503 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:24.005398 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:24 +0800
+I, [2014-10-23T05:27:24.006254 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:24.011267 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (2.4ms)
+I, [2014-10-23T05:27:24.011551 #7870]  INFO -- : Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:32.136410 #7870]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-23 05:27:32 +0800
+I, [2014-10-23T05:27:32.137392 #7870]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-23T05:27:32.139604 #7870]  INFO -- :   Rendered articles/admin/login.html.erb (0.9ms)
+I, [2014-10-23T05:27:32.139842 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:33.966274 #7870]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-23 05:27:33 +0800
+I, [2014-10-23T05:27:33.967109 #7870]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-23T05:27:33.967997 #7870]  INFO -- :   Rendered articles/admin/login.html.erb (0.1ms)
+I, [2014-10-23T05:27:33.968132 #7870]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:45.963949 #7870]  INFO -- : Started POST "/admin/login" for 127.0.0.1 at 2014-10-23 05:27:45 +0800
+I, [2014-10-23T05:27:45.964814 #7870]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-23T05:27:45.964874 #7870]  INFO -- :   Parameters: {"authenticity_token"=>"VxbZRXZPmv1Z0fkD67GN8Y1KKlI8zKV6RvvfnHimXbM=", "name"=>"jeky", "pass"=>"jeky2329"}
+I, [2014-10-23T05:27:45.965545 #7870]  INFO -- : Redirected to http://localhost:4000/admin/articles
+I, [2014-10-23T05:27:45.965668 #7870]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:45.971666 #7870]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-23 05:27:45 +0800
+I, [2014-10-23T05:27:45.972924 #7870]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-23T05:27:45.974547 #7870]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (0.6ms)
+I, [2014-10-23T05:27:45.975073 #7870]  INFO -- : Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+I, [2014-10-23T05:27:46.043803 #7870]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-23 05:27:46 +0800
+I, [2014-10-23T05:27:46.044726 #7870]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-23T05:27:46.049106 #7870]  INFO -- :   Rendered articles/admin/new.html.erb (2.7ms)
+I, [2014-10-23T05:27:46.049393 #7870]  INFO -- : Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:49.328453 #7870]  INFO -- : Started GET "/admin/logout" for 127.0.0.1 at 2014-10-23 05:27:49 +0800
+I, [2014-10-23T05:27:49.329479 #7870]  INFO -- : Processing by ArticlesController#admin_logout as HTML
+I, [2014-10-23T05:27:49.331815 #7870]  INFO -- : Redirected to http://localhost:4000/admin/login?notice=logout
+I, [2014-10-23T05:27:49.332013 #7870]  INFO -- : Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:49.337610 #7870]  INFO -- : Started GET "/admin/login?notice=logout" for 127.0.0.1 at 2014-10-23 05:27:49 +0800
+I, [2014-10-23T05:27:49.339966 #7870]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-23T05:27:49.340268 #7870]  INFO -- :   Parameters: {"notice"=>"logout"}
+I, [2014-10-23T05:27:49.341489 #7870]  INFO -- :   Rendered articles/admin/login.html.erb (0.2ms)
+I, [2014-10-23T05:27:49.341735 #7870]  INFO -- : Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+I, [2014-10-23T05:27:51.387808 #7870]  INFO -- : Started GET "/admin/login?notice=logout" for 127.0.0.1 at 2014-10-23 05:27:51 +0800
+I, [2014-10-23T05:27:51.388539 #7870]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-23T05:27:51.388592 #7870]  INFO -- :   Parameters: {"notice"=>"logout"}
+I, [2014-10-23T05:27:51.389318 #7870]  INFO -- :   Rendered articles/admin/login.html.erb (0.2ms)
+I, [2014-10-23T05:27:51.389529 #7870]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2014-10-24T20:29:03.425080 #3909]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-24 20:29:03 +0800
+I, [2014-10-24T20:29:03.557812 #3909]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-24T20:29:03.566618 #3909]  INFO -- :   Rendered articles/admin/login.html.erb (1.3ms)
+I, [2014-10-24T20:29:03.566967 #3909]  INFO -- : Completed 200 OK in 9ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-24T20:29:14.237102 #3909]  INFO -- : Started POST "/admin/login" for 127.0.0.1 at 2014-10-24 20:29:14 +0800
+I, [2014-10-24T20:29:14.246431 #3909]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-24T20:29:14.246501 #3909]  INFO -- :   Parameters: {"authenticity_token"=>"th40ZhhbcWUXcjpDVrrmCU0atgWWlhC5CM8Kuoxlduc=", "name"=>"jeky", "pass"=>"jeky2329"}
+I, [2014-10-24T20:29:14.247195 #3909]  INFO -- : Redirected to http://localhost:4000/admin/articles
+I, [2014-10-24T20:29:14.247320 #3909]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2014-10-24T20:29:14.253724 #3909]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-24 20:29:14 +0800
+I, [2014-10-24T20:29:14.261514 #3909]  INFO -- : Processing by ArticlesController#admin_list as HTML
+E, [2014-10-24T20:29:14.274872 #3909] ERROR -- : Mysql2::Error: Table 'dousile_production.articles' doesn't exist: SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+I, [2014-10-24T20:29:14.275554 #3909]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (10.9ms)
+I, [2014-10-24T20:29:14.275675 #3909]  INFO -- : Completed 500 Internal Server Error in 14ms
+F, [2014-10-24T20:29:14.277242 #3909] FATAL -- : 
+ActionView::Template::Error (Mysql2::Error: Table 'dousile_production.articles' doesn't exist: SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0  ORDER BY pubtime DESC LIMIT 20 OFFSET 0):
+    12: 		      </tr>
+    13: 		   </thead>
+    14: 		   <tbody>
+    15: 			   <% @articles.each do |atc| %>
+    16: 		      <tr>
+    17: 		         <td<%=raw(atc.sign==1 ? " style='background-color:yellow;'" : "")%>><a href="/articles/<%=atc.id%>.htm" target="_blank"><%=atc.title%></a>
+    18: 					 <% if(atc.haspic) %><span class="glyphicon glyphicon-picture"></span><% end %>
+  app/views/articles/admin/list.html.erb:15:in `_app_views_articles_admin_list_html_erb__1176146790127578347_70344303266980'
+  app/controllers/articles_controller.rb:52:in `admin_list'
+
+
+I, [2014-10-24T20:32:40.092932 #3923]  INFO -- : Migrating to CreateArticles (20141019030912)
+I, [2014-10-24T20:32:40.137297 #3923]  INFO -- : Migrating to CreateUpyuns (20141024062308)
+I, [2014-10-24T20:32:53.560412 #3909]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-24 20:32:53 +0800
+I, [2014-10-24T20:32:53.569148 #3909]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-24T20:32:53.620545 #3909]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (50.4ms)
+I, [2014-10-24T20:32:53.622234 #3909]  INFO -- : Completed 200 OK in 53ms (Views: 15.6ms | ActiveRecord: 36.6ms)
+I, [2014-10-24T20:32:53.706511 #3909]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-24 20:32:53 +0800
+I, [2014-10-24T20:32:53.714224 #3909]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-24T20:32:53.878238 #3909]  INFO -- :   Rendered articles/admin/new.html.erb (7.9ms)
+I, [2014-10-24T20:32:53.878503 #3909]  INFO -- : Completed 200 OK in 164ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+I, [2014-10-24T20:32:56.427160 #3909]  INFO -- : Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-24 20:32:56 +0800
+I, [2014-10-24T20:32:56.436880 #3909]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-24T20:32:56.436950 #3909]  INFO -- :   Parameters: {"state"=>"1"}
+I, [2014-10-24T20:32:56.454986 #3909]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (17.0ms)
+I, [2014-10-24T20:32:56.455540 #3909]  INFO -- : Completed 200 OK in 19ms (Views: 2.2ms | ActiveRecord: 15.5ms)
+I, [2014-10-24T20:32:56.520307 #3909]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-24 20:32:56 +0800
+I, [2014-10-24T20:32:56.526637 #3909]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-24T20:32:56.529152 #3909]  INFO -- :   Rendered articles/admin/new.html.erb (1.4ms)
+I, [2014-10-24T20:32:56.529316 #3909]  INFO -- : Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-24T20:32:57.138043 #3909]  INFO -- : Started GET "/admin/articles/st2" for 127.0.0.1 at 2014-10-24 20:32:57 +0800
+I, [2014-10-24T20:32:57.148121 #3909]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-24T20:32:57.148188 #3909]  INFO -- :   Parameters: {"state"=>"2"}
+I, [2014-10-24T20:32:57.165994 #3909]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (17.0ms)
+I, [2014-10-24T20:32:57.166488 #3909]  INFO -- : Completed 200 OK in 18ms (Views: 1.9ms | ActiveRecord: 15.7ms)
+I, [2014-10-24T20:32:57.214681 #3909]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-24 20:32:57 +0800
+I, [2014-10-24T20:32:57.229589 #3909]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-24T20:32:57.232169 #3909]  INFO -- :   Rendered articles/admin/new.html.erb (1.4ms)
+I, [2014-10-24T20:32:57.232387 #3909]  INFO -- : Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-24T20:32:57.850904 #3909]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-24 20:32:57 +0800
+I, [2014-10-24T20:32:57.858451 #3909]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-24T20:32:57.874064 #3909]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (14.8ms)
+I, [2014-10-24T20:32:57.874724 #3909]  INFO -- : Completed 200 OK in 16ms (Views: 2.1ms | ActiveRecord: 13.4ms)
+I, [2014-10-24T20:32:57.948750 #3909]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-24 20:32:57 +0800
+I, [2014-10-24T20:32:57.957005 #3909]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-24T20:32:57.960180 #3909]  INFO -- :   Rendered articles/admin/new.html.erb (1.9ms)
+I, [2014-10-24T20:32:57.960378 #3909]  INFO -- : Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-24T20:34:33.354550 #3909]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-24 20:34:33 +0800
+I, [2014-10-24T20:34:33.368407 #3909]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-24T20:34:33.386393 #3909]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (17.1ms)
+I, [2014-10-24T20:34:33.386866 #3909]  INFO -- : Completed 200 OK in 18ms (Views: 1.9ms | ActiveRecord: 15.9ms)
+I, [2014-10-24T20:34:33.459449 #3909]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-24 20:34:33 +0800
+I, [2014-10-24T20:34:33.472644 #3909]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-24T20:34:33.476357 #3909]  INFO -- :   Rendered articles/admin/new.html.erb (2.2ms)
+I, [2014-10-24T20:34:33.476590 #3909]  INFO -- : Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+I, [2014-10-24T20:34:35.507646 #3909]  INFO -- : Started GET "/admin/logout" for 127.0.0.1 at 2014-10-24 20:34:35 +0800
+I, [2014-10-24T20:34:35.518373 #3909]  INFO -- : Processing by ArticlesController#admin_logout as HTML
+I, [2014-10-24T20:34:35.519343 #3909]  INFO -- : Redirected to http://localhost:4000/admin/login?notice=logout
+I, [2014-10-24T20:34:35.519449 #3909]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2014-10-24T20:34:35.525144 #3909]  INFO -- : Started GET "/admin/login?notice=logout" for 127.0.0.1 at 2014-10-24 20:34:35 +0800
+I, [2014-10-24T20:34:35.536152 #3909]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-24T20:34:35.536312 #3909]  INFO -- :   Parameters: {"notice"=>"logout"}
+I, [2014-10-24T20:34:35.537250 #3909]  INFO -- :   Rendered articles/admin/login.html.erb (0.2ms)
+I, [2014-10-24T20:34:35.537548 #3909]  INFO -- : Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+I, [2014-10-24T20:34:38.001348 #3909]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-24 20:34:38 +0800
+I, [2014-10-24T20:34:38.011005 #3909]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-24T20:34:38.012992 #3909]  INFO -- :   Rendered articles/pc_index.html.erb (0.8ms)
+I, [2014-10-24T20:34:38.013220 #3909]  INFO -- : Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:03:56.805835 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:03:56 +0800
+I, [2014-10-25T01:03:56.919300 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:03:56.928535 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.5ms)
+I, [2014-10-25T01:03:56.928770 #5101]  INFO -- : Completed 200 OK in 9ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:05:08.072417 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:05:08 +0800
+I, [2014-10-25T01:05:08.077922 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:05:08.078592 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.0ms)
+I, [2014-10-25T01:05:08.078732 #5101]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:05:19.710135 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:05:19 +0800
+I, [2014-10-25T01:05:19.715240 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:05:19.715878 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.0ms)
+I, [2014-10-25T01:05:19.716018 #5101]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:05:31.050355 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:05:31 +0800
+I, [2014-10-25T01:05:31.056474 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:05:31.057324 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.0ms)
+I, [2014-10-25T01:05:31.057533 #5101]  INFO -- : Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:05:43.258830 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:05:43 +0800
+I, [2014-10-25T01:05:43.264347 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:05:43.265538 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.0ms)
+I, [2014-10-25T01:05:43.265718 #5101]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:05:58.482790 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:05:58 +0800
+I, [2014-10-25T01:05:58.494659 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:05:58.495298 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.0ms)
+I, [2014-10-25T01:05:58.495488 #5101]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:05:59.066904 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:05:59 +0800
+I, [2014-10-25T01:05:59.075416 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:05:59.076922 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.2ms)
+I, [2014-10-25T01:05:59.077748 #5101]  INFO -- : Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:05:59.363928 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:05:59 +0800
+I, [2014-10-25T01:05:59.372438 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:05:59.375277 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.1ms)
+I, [2014-10-25T01:05:59.375666 #5101]  INFO -- : Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:05:59.509971 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:05:59 +0800
+I, [2014-10-25T01:05:59.518800 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:05:59.519641 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.0ms)
+I, [2014-10-25T01:05:59.519822 #5101]  INFO -- : Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:05:59.700893 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:05:59 +0800
+I, [2014-10-25T01:05:59.707355 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:05:59.707964 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.0ms)
+I, [2014-10-25T01:05:59.708101 #5101]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T01:06:47.345366 #5101]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 01:06:47 +0800
+I, [2014-10-25T01:06:47.351857 #5101]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T01:06:47.352454 #5101]  INFO -- :   Rendered articles/pc_index.html.erb (0.0ms)
+I, [2014-10-25T01:06:47.352589 #5101]  INFO -- : Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T12:57:26.691895 #8919]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 12:57:26 +0800
+I, [2014-10-25T12:57:26.763828 #8919]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T12:57:26.815632 #8919]  INFO -- :   Rendered articles/pc_index.html.erb (41.9ms)
+I, [2014-10-25T12:57:26.815917 #8919]  INFO -- : Completed 200 OK in 52ms (Views: 11.6ms | ActiveRecord: 31.7ms)
+I, [2014-10-25T12:57:30.865461 #8919]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 12:57:30 +0800
+I, [2014-10-25T12:57:31.162323 #8919]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T12:57:31.177900 #8919]  INFO -- :   Rendered articles/pc_index.html.erb (14.4ms)
+I, [2014-10-25T12:57:31.178144 #8919]  INFO -- : Completed 200 OK in 16ms (Views: 1.8ms | ActiveRecord: 13.1ms)
+I, [2014-10-25T12:57:34.237148 #8919]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-25 12:57:34 +0800
+I, [2014-10-25T12:57:34.478738 #8919]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-25T12:57:34.483288 #8919]  INFO -- :   Rendered articles/admin/login.html.erb within layouts/admin (1.1ms)
+I, [2014-10-25T12:57:34.484960 #8919]  INFO -- : Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T12:57:36.439368 #8919]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-25 12:57:36 +0800
+I, [2014-10-25T12:57:36.447006 #8919]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-25T12:57:36.448351 #8919]  INFO -- : Redirected to http://localhost:4000/admin/login
+I, [2014-10-25T12:57:36.448681 #8919]  INFO -- : Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+I, [2014-10-25T12:57:36.454275 #8919]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-25 12:57:36 +0800
+I, [2014-10-25T12:57:37.104697 #8919]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-25T12:57:37.105521 #8919]  INFO -- :   Rendered articles/admin/login.html.erb within layouts/admin (0.1ms)
+I, [2014-10-25T12:57:37.105954 #8919]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T12:57:40.448492 #8919]  INFO -- : Started POST "/admin/login" for 127.0.0.1 at 2014-10-25 12:57:40 +0800
+I, [2014-10-25T12:57:40.468271 #8919]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-25T12:57:40.468376 #8919]  INFO -- :   Parameters: {"authenticity_token"=>"TUQAMuHehrXEnTsqJ8NBdZa68pBZaBOl6wKuAPba4/4=", "name"=>"jeky", "pass"=>"jeky2329"}
+I, [2014-10-25T12:57:40.468973 #8919]  INFO -- : Redirected to http://localhost:4000/admin/articles
+I, [2014-10-25T12:57:40.469091 #8919]  INFO -- : Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+I, [2014-10-25T12:57:40.473949 #8919]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-25 12:57:40 +0800
+I, [2014-10-25T12:57:40.480310 #8919]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-25T12:57:40.716400 #8919]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (234.1ms)
+I, [2014-10-25T12:57:40.716889 #8919]  INFO -- : Completed 200 OK in 236ms (Views: 148.8ms | ActiveRecord: 86.8ms)
+I, [2014-10-25T12:57:40.768255 #8919]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-25 12:57:40 +0800
+I, [2014-10-25T12:57:40.775484 #8919]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-25T12:57:40.781364 #8919]  INFO -- :   Rendered articles/admin/new.html.erb (2.9ms)
+I, [2014-10-25T12:57:40.781646 #8919]  INFO -- : Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T12:57:54.160435 #8919]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-25 12:57:54 +0800
+I, [2014-10-25T12:57:54.218339 #8919]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-25T12:57:54.283969 #8919]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (64.7ms)
+I, [2014-10-25T12:57:54.284489 #8919]  INFO -- : Completed 200 OK in 66ms (Views: 10.8ms | ActiveRecord: 54.6ms)
+I, [2014-10-25T12:57:54.359426 #8919]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-25 12:57:54 +0800
+I, [2014-10-25T12:57:54.365437 #8919]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-25T12:57:54.367938 #8919]  INFO -- :   Rendered articles/admin/new.html.erb (1.4ms)
+I, [2014-10-25T12:57:54.368121 #8919]  INFO -- : Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T12:57:56.023205 #8919]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-25 12:57:56 +0800
+I, [2014-10-25T12:57:56.053445 #8919]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-25T12:57:56.098712 #8919]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (44.4ms)
+I, [2014-10-25T12:57:56.099197 #8919]  INFO -- : Completed 200 OK in 46ms (Views: 12.0ms | ActiveRecord: 33.0ms)
+I, [2014-10-25T12:57:56.156386 #8919]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-25 12:57:56 +0800
+I, [2014-10-25T12:57:56.162093 #8919]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-25T12:57:56.165727 #8919]  INFO -- :   Rendered articles/admin/new.html.erb (2.2ms)
+I, [2014-10-25T12:57:56.165952 #8919]  INFO -- : Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T12:57:57.430435 #8919]  INFO -- : Started GET "/articles/4106.htm" for 127.0.0.1 at 2014-10-25 12:57:57 +0800
+F, [2014-10-25T12:57:57.507790 #8919] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/articles/4106.htm"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-25T12:58:17.772522 #8919]  INFO -- : Started GET "/articles/2560.htm" for 127.0.0.1 at 2014-10-25 12:58:17 +0800
+F, [2014-10-25T12:58:17.779656 #8919] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/articles/2560.htm"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/bin/ruby-2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-10-25T12:58:26.060041 #8919]  INFO -- : Started GET "/articles/2560.html" for 127.0.0.1 at 2014-10-25 12:58:26 +0800
+I, [2014-10-25T12:58:26.071811 #8919]  INFO -- : Processing by ArticlesController#m_show as HTML
+I, [2014-10-25T12:58:26.071898 #8919]  INFO -- :   Parameters: {"id"=>"2560"}
+I, [2014-10-25T12:58:26.098967 #8919]  INFO -- :   Rendered articles/m_show.html.erb (1.0ms)
+I, [2014-10-25T12:58:26.099243 #8919]  INFO -- : Completed 200 OK in 27ms (Views: 2.3ms | ActiveRecord: 22.6ms)
+I, [2014-10-25T12:58:32.961745 #8919]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 12:58:32 +0800
+I, [2014-10-25T12:58:32.966976 #8919]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T12:58:32.977787 #8919]  INFO -- :   Rendered articles/pc_index.html.erb (10.1ms)
+I, [2014-10-25T12:58:32.978069 #8919]  INFO -- : Completed 200 OK in 11ms (Views: 1.5ms | ActiveRecord: 9.0ms)
+I, [2014-10-25T15:45:17.254474 #8919]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-10-25 15:45:17 +0800
+I, [2014-10-25T15:45:47.524897 #8919]  INFO -- : Processing by ArticlesController#index as HTML
+I, [2014-10-25T15:45:47.541770 #8919]  INFO -- :   Rendered articles/pc_index.html.erb (13.3ms)
+I, [2014-10-25T15:45:47.542047 #8919]  INFO -- : Completed 200 OK in 17ms (Views: 2.2ms | ActiveRecord: 11.7ms)
+I, [2014-10-25T15:45:47.543142 #8919]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-25 15:45:47 +0800
+I, [2014-10-25T15:45:47.550636 #8919]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-25T15:45:47.551838 #8919]  INFO -- :   Rendered articles/admin/login.html.erb within layouts/admin (0.2ms)
+I, [2014-10-25T15:45:47.552571 #8919]  INFO -- : Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T15:45:54.912492 #9640]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-25 15:45:54 +0800
+I, [2014-10-25T15:45:54.982617 #9640]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-25T15:45:54.993080 #9640]  INFO -- :   Rendered articles/admin/login.html.erb within layouts/admin (0.8ms)
+I, [2014-10-25T15:45:54.994187 #9640]  INFO -- : Completed 200 OK in 11ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T15:45:57.710686 #9640]  INFO -- : Started GET "/admin/articles" for 127.0.0.1 at 2014-10-25 15:45:57 +0800
+I, [2014-10-25T15:45:57.718839 #9640]  INFO -- : Processing by ArticlesController#admin_list as HTML
+I, [2014-10-25T15:45:58.011960 #9640]  INFO -- :   Rendered articles/admin/list.html.erb within layouts/admin (285.9ms)
+I, [2014-10-25T15:45:58.012483 #9640]  INFO -- : Completed 200 OK in 293ms (Views: 228.2ms | ActiveRecord: 60.5ms)
+I, [2014-10-25T15:45:58.056646 #9640]  INFO -- : Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-25 15:45:58 +0800
+I, [2014-10-25T15:45:58.064416 #9640]  INFO -- : Processing by ArticlesController#admin_new as HTML
+I, [2014-10-25T15:45:58.070248 #9640]  INFO -- :   Rendered articles/admin/new.html.erb (3.6ms)
+I, [2014-10-25T15:45:58.070485 #9640]  INFO -- : Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+I, [2014-10-25T15:46:01.652016 #9640]  INFO -- : Started GET "/admin/login" for 127.0.0.1 at 2014-10-25 15:46:01 +0800
+I, [2014-10-25T15:46:01.660769 #9640]  INFO -- : Processing by ArticlesController#admin_login as HTML
+I, [2014-10-25T15:46:01.661536 #9640]  INFO -- :   Rendered articles/admin/login.html.erb within layouts/admin (0.1ms)
+I, [2014-10-25T15:46:01.661973 #9640]  INFO -- : Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)

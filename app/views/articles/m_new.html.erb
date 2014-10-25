@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>发布小笑话 - 逗死了</title>
+	<meta charset="utf-8" />
+	<meta content="width=device-width,user-scalable=no" name="viewport"> 
+	<style type="text/css">
+	html,body { margin:0px; padding:0px; background-color:#fff; }
+	body { font: normal 100% Helvetica, Arial, sans-serif; }
+	h1 { font-size: 1.4em; color:#000; }
+	h1, h2, h3 { -webkit-font-smoothing: antialiased; font-style: normal; margin: 0 auto; }
+	img{max-width: 100%; height: auto; width: auto;}
+	.l { float:left; }
+	.r { float:right;}
+	.c { text-align:center; }
+	a { color: #000; text-decoration:none; }
+	
+	#page { margin:0 auto; padding:0px; }
+	.wrap { padding:0 8px; }
+	
+	#header { margin: 10px 0px; }
+	h1.title { padding: 2px 0px; }
+	span.rq { color:grey; font-size:0.85em; margin-right:1em; }
+	span.from { color:grey; font-size:0.85em; }
+
+	#content { margin: 2px 0px; }
+	div.text { padding: 5px 0px; font-size:1em; line-height:160%; }
+	#content .welcome { font-size: 0.85em; color:black; background:#E4EDF8; padding-top: 3px; padding-bottom:3px;}
+	#content textarea { width:100%; height:15em; font-size:1em; }
+	
+	#footer { background-color:#f8f7f5; font-size:0.85em; height:3em; line-height: 3em; color:grey; padding:10px }
+	#footer a { color:grey; }
+	</style>
+	<script type="text/javascript">
+	function check() {
+		var content = document.getElementById('article_content').value;
+		if(content != '' && content.length > 20) return true;
+		alert('失败：内容太过简单。');
+		return false;
+	}
+	</script>
+</head>
+
+<body>
+	<div id="page">
+		<div id="header" class="wrap c"><h1>发布小笑话</h1></div>
+		<%= form_for :article, url:'/articles/create/m/' do |f| %>
+		<div id="content" class="wrap">
+			<div class="welcome">亲爱的，我们欢迎和期待每一位朋友都来分享一些小笑话。您可以将笑话填写/粘帖到下方输入框中，然后点击提交即可。</div>
+			<div class="text"><%= f.text_area :content %></div>
+			<div class="btn"><%= f.submit :value=>'提 交', :onclick=>'return check();' %>&nbsp;
+					<input type="reset" value="重 填" />
+				</div>
+		</div>
+		<% end %>
+		<div id="footer">© 2013 - 2014 dousile.com All Rights Reserved</div>
+	</div>
+</body>
+</html>

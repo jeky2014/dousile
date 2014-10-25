@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  source: 1
+  state: 1
+  title: MyString
+  content: MyText
+  hitt: 1
+  hitm: 1
+  sign: 1
+  haspic: false
+  picpath: MyString
+  tag: MyString
+  pubtime: 2014-10-19 11:09:12
+
+two:
+  source: 1
+  state: 1
+  title: MyString
+  content: MyText
+  hitt: 1
+  hitm: 1
+  sign: 1
+  haspic: false
+  picpath: MyString
+  tag: MyString
+  pubtime: 2014-10-19 11:09:12

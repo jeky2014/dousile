@@ -1,0 +1,15 @@
+<form action="http://v0.api.upyun.com/<%=upyun_bucket%>"
+method="post" enctype="multipart/form-data">
+
+  <!-- 需要传递以下三个表单内容 -->
+  <%= upyun_tag %>
+  <input type="file" name="file">
+  <input type="submit" value="上传">
+
+</form>
+
+<h3>已上传图片</h3>
+<% @upyuns.each do |up| %>
+<img src="http://dousile.b0.upaiyun.com<%=up.url%>!v1" />
+<% end %>
+<%= paginate @upyuns %>

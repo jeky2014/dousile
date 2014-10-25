@@ -1,0 +1,57 @@
+<div class="row">
+      <div class="col-md-6">
+		  <h4 class="text-center">文章列表</h4>
+		<table class="table table-hover">
+		   <thead>
+		      <tr>
+		         <th>标题</th>
+		         <th>点击次数</th>
+		         <th>发布时间</th>
+				 <th/>
+				 <th/>
+		      </tr>
+		   </thead>
+		   <tbody>
+			   <% @articles.each do |atc| %>
+		      <tr>
+		         <td<%=raw(atc.sign==1 ? " style='background-color:yellow;'" : "")%>><a href="/articles/<%=atc.id%>.html" target="_blank"><%=atc.title%></a>
+					 <% if(atc.haspic) %><span class="glyphicon glyphicon-picture"></span><% end %>
+				 </td>
+		         <td><%=atc.hitt%></td>
+		         <td><%=showtime atc.pubtime%></td>
+				 <td><a href="/admin/articles/new/<%=atc.id%>" target="myframe">修改</a></td>
+				 <td><a href="javascript:void(__delete(<%=atc.id%>));" onclick="return confirm('Are you sure?');">删除</a></td>
+		      </tr>
+			  <% end %>
+		   </tbody>
+		</table>	  
+	  <%= paginate @articles %>
+	  </div>
+      <div class="col-md-6">
+      	<iframe name="myframe" src="/admin/articles/new" style="width:100%; height:900px; margin-left:15px; padding-top:10px;" frameborder="0"></iframe>
+      </div>      
+</div>
+
+<script type="text/javascript">
+
+$.ajaxSetup({
+    beforeSend: function (xhr) {
+        xhr.setRequestHeader('X-CSRF-Token',
+            $('meta[name="csrf-token"]').attr('content'));
+    }
+});
+
+
+// 删除
+function __delete(id){
+	$.ajax({
+		url: '/admin/articles/delete/' + id,
+		type: 'delete',
+		success: function(d){
+			alert('删除' + (d==1 ? '成功' : '失败'));
+			if(d == 1) location.href = location.href;
+		}
+	});
+}
+</script>
+

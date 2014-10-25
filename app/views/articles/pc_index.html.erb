@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>小笑话_微信笑话 - 逗死了笑话网</title>
+	<meta name="keywords" content="小笑话,微信笑话,经典小笑话" />
+	<meta name="description" 	content="逗死了，是一个经典的微信小笑话网站。每天发布最新最经典的爆笑小笑话、冷笑话、成人小笑话等，超级搞笑、爆笑不止。手机微信浏览，随时随地收获快乐，开心生活每一天。" />
+	<%= stylesheet_link_tag "/bootstrap/css/bootstrap.min.css", media: "all" %>
+	
+	<meta charset="utf8" />
+	<style type="text/css">
+	html,body { margin:0px; padding:0px; }
+	html,body,div,p { font-size:14px; }
+	body {
+		font: 14px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+	
+	#header { background:#02bb00; padding: 20px 0px; }
+	#content { margin: 20px auto; }
+	h1 { font-size:30px; color:#fff; }
+	h3 { font-size: 23px; color:#fff; }
+	h1, h2, h3 {
+		-webkit-font-smoothing: antialiased;
+	}
+	h1, h2, h3, h4, h5 {
+		font-weight: 400;
+		font-style: normal;
+		margin: 0 auto;
+	}
+	h3.title { margin-bottom: 27.5px; color:#000; display:inline-block; position:relative; padding: 0 20px; z-index:1; background:#fff;}
+	.c { text-align:center; }
+	.l { float:left;}
+	.r { float:right; }
+	.inner { width: 870px; text-align:center; margin:0 auto; }
+	.line { top:18px; position:relative; display:block; border-top:1px solid #cfcfcf; }
+	.box { margin: 35px auto; }
+	.link img { padding:5px; }
+	
+	#footer {
+		background-color: #ebebeb;
+		color: #9f9f9f;
+		padding: 45px 0 65px 0;
+		font-family: "Myriad Set Pro","Microsoft YaHei";
+	}
+	</style>
+</head>
+<body>
+<div id="page">
+	<div id="header" class="c">
+		<img src="./images/logo.jpg"><br/>
+		<img src="./images/back.png"><br/>
+		<h1>我们努力 —— 让更多的微信用户笑口常开</h1>
+		<h3>收获快乐，开心生活每一天！</h3>
+	</div>
+	
+	<div id="content">
+		
+		<div class="box inner">
+			<em class="line"></em>
+			<h3 class="title">微信扫一扫</h3>
+			<div>
+				<img src="./images/qrcode.jpg" style="padding-bottom:20px;" />
+				<img src="./images/sao.png" />
+			</div>
+		</div>
+		
+		
+		<div class="box inner">
+			<em class="line"></em>
+			<h3 class="title">经典笑话</h3>
+			<div class="link">
+				<% @articles.each do |atc| %>
+				<a href="/detail/<%=atc.id%>.html" target="_blank">
+				<img class="img-rounded" src="http://dousile.b0.upaiyun.com<%=atc.picpath%>!v11" alt="<%=atc.title%>" style="border-radius:15px;" />
+				</a>
+				<% end %>
+			</div>
+		</div>
+		
+		
+		<div class="box inner">
+			<em class="line"></em>
+			<h3 class="title">平台支持</h3>
+			<div class="link">
+				<img src="./images/link/aliyun.png" />
+				<img src="./images/link/dnspod.png" />
+				<img src="./images/link/weixin.png" />
+				<img src="./images/link/upyun.png" />
+				<img src="./images/link/rails.png" />
+			</div>
+		</div>
+		
+	</div>
+	
+	<div id="footer">
+		<div class="inner">
+			<div class="l">© 2013 - 2014 dousile.com All Rights Reserved</div>
+			<div class="r">
+				<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=sdvU2siDgYCC8cDAn9Le3A" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_11.png"/></a>
+			</div>
+		</div>
+		<div id="stat" style="display:none;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5016679'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D5016679%26show%3Dpic2' type='text/javascript'%3E%3C/script%3E"));</script></div>
+	</div>
+</div>
+</body>
+</html>
