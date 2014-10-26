@@ -24802,3 +24802,54 @@ Processing by ArticlesController#index as HTML
   [1m[36mArticle Load (57.9ms)[0m  [1mSELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`haspic` = 1  ORDER BY rand() LIMIT 5[0m
   Rendered articles/pc_index.html.erb (60.6ms)
 Completed 200 OK in 62ms (Views: 3.5ms | ActiveRecord: 57.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-26 00:22:37 +0800
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (18.2ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`haspic` = 1  ORDER BY rand() LIMIT 5
+  Rendered articles/pc_index.html.erb (20.5ms)
+Completed 200 OK in 22ms (Views: 3.0ms | ActiveRecord: 18.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-26 00:22:55 +0800
+Processing by ArticlesController#index as HTML
+  [1m[36mArticle Load (27.2ms)[0m  [1mSELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`haspic` = 1  ORDER BY rand() LIMIT 5[0m
+  Rendered articles/pc_index.html.erb (29.4ms)
+Completed 200 OK in 31ms (Views: 2.9ms | ActiveRecord: 27.2ms)
+
+
+Started GET "/api/test" for 127.0.0.1 at 2014-10-26 11:06:14 +0800
+
+
+Started GET "/api/test" for 127.0.0.1 at 2014-10-26 11:06:35 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (5.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+SyntaxError (/Users/jeky/work/ruby/dousile/app/controllers/api_controller.rb:53: syntax error, unexpected tIDENTIFIER, expecting keyword_end):
+  app/controllers/api_controller.rb:53: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered /usr/local/bin/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /usr/local/bin/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /usr/local/bin/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.4ms)
+  Rendered /usr/local/bin/ruby-2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.1ms)
+
+
+Started GET "/api/test" for 127.0.0.1 at 2014-10-26 11:06:42 +0800
+Processing by ApiController#test as HTML
+  [1m[35mArticle Load (12.6ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1  ORDER BY rand() LIMIT 1
+  Rendered text template (0.0ms)
+Completed 200 OK in 47ms (Views: 1.7ms | ActiveRecord: 30.2ms)
+
+
+Started GET "/api/test" for 127.0.0.1 at 2014-10-26 11:06:43 +0800
+Processing by ApiController#test as HTML
+  [1m[36mArticle Load (15.3ms)[0m  [1mSELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1  ORDER BY rand() LIMIT 1[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 15.3ms)
+
+
+Started GET "/api/test" for 127.0.0.1 at 2014-10-26 11:29:16 +0800
+Processing by ApiController#test as HTML
+  [1m[35mArticle Load (13.9ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1  ORDER BY rand() LIMIT 1
+  Rendered text template (0.0ms)
+Completed 200 OK in 41ms (Views: 0.5ms | ActiveRecord: 31.3ms)

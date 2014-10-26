@@ -43,21 +43,18 @@ class ApiController < ApplicationController
         return
       end
       
-      # 文本类型
+      # 有无图判断
       if(article.haspic == false)
-        content = "%s：http://www.dousile.com/articles/%s.html" % [ article.title,  article.id]
-        render xml: send_text_msg(fromUserName, toUserName, createTime, msgType, content)
-        return
+        picurl = "http://www.dousile.com/images/wx/%s.png" % [ rand(20)+1 ]
+      else
+        picurl = "http://dousile.b0.upaiyun.com%s!v3" % [ article.picpath ]
       end
+      puts "------ picurl:" << picurl
       
       # 图文类型
-      if(article.haspic)
-        title = article.title
-        picurl = "http://dousile.b0.upaiyun.com%s!v3" % [ article.picpath ]
-        url = "http://123.57.41.225/articles/%s.html" % [ article.id ]
-        render xml: send_news_msg(fromUserName, toUserName, createTime, title, picurl, url)
-        return
-      end
+      title = article.title
+      url = "http://123.57.41.225/articles/%s.html" % [ article.id ]
+      render xml: send_news_msg(fromUserName, toUserName, createTime, title, picurl, url)
     end
     
   end
@@ -99,9 +96,9 @@ class ApiController < ApplicationController
     
     # 判断笑话类型
     typeid = 0 # 类型id: 0-无意义, 1-成人, 2-普通
-    if(content.include? '黄色' or content.include? '黄的' or content.include? '成人')
+    if(adult?(content))
       typeid = 1
-    elsif(content.include? '来' or content.include? '来个' or content.include? '来一个' or content.include? '看' or content.include? '笑话' or content.include? '讲个' or content.include? '讲一个')
+    elsif(simple?(content))
       typeid = 2
     end
     
@@ -114,6 +111,16 @@ class ApiController < ApplicationController
       return Article.where(state: 0).order("rand()").limit(1)[0] if(typeid == 2)
     end
     return nil
+  end
+  
+  # 是否想听成人笑话
+  def adult?(content)
+    (content.downcase == "h" or content.include? '黄色' or content.include? '黄的' or content.include? '成人')
+  end
+  
+  # 是否想听普通笑话
+  def simple?(content)
+    (content.downcase == "k" or content.downcase == "kk" or content == '看' or content.include? '来' or content.include? '笑话' or content.include? '讲个' or content.include? '讲一个')
   end
   
 
