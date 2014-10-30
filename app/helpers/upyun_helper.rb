@@ -26,7 +26,7 @@ module UpyunHelper
   end
   
   def getSignature(policy)
-    form_api_key =  '194jNUdYn3MsOEDjIzFW+Q/x2xI='
+    form_api_key =  ENV["DOUSILE_UPYUN_FORMKEY"]
     sign = Digest::MD5.hexdigest([policy,form_api_key].join("&"))
   end
   
