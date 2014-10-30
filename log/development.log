@@ -25234,3 +25234,10 @@ Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-30 19:11:40 +0800
 Processing by ArticlesController#admin_new as HTML
   Rendered articles/admin/new.html.erb (15.5ms)
 Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-30 19:47:51 +0800
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (12.3ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`haspic` = 1  ORDER BY rand() LIMIT 5
+  Rendered articles/pc_index.html.erb (53.0ms)
+Completed 200 OK in 56ms (Views: 8.8ms | ActiveRecord: 45.2ms)
