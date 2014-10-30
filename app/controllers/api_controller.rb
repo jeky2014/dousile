@@ -115,7 +115,7 @@ class ApiController < ApplicationController
   
   # 是否想听成人笑话
   def adult?(content)
-    (content.downcase == "h" or content.include? '黄色' or content.include? '黄的' or content.include? '成人')
+    (content.downcase == "h" or content == "黄" or content.include? '黄色' or content.include? '黄的' or content.include? '成人')
   end
   
   # 是否想听普通笑话
