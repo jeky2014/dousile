@@ -25177,3 +25177,33 @@ Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-30 18:49:56 +0800
 Processing by ArticlesController#admin_new as HTML
   Rendered articles/admin/new.html.erb (1.7ms)
 Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/4113.html" for 127.0.0.1 at 2014-10-30 18:52:12 +0800
+Processing by ArticlesController#m_show as HTML
+  Parameters: {"id"=>"4113"}
+  [1m[35mArticle Load (8.7ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`id` = 4113 LIMIT 1
+  [1m[36mSQL (6.7ms)[0m  [1mUPDATE `articles` SET `articles`.`hitt` = 1 WHERE `articles`.`id` = 4113[0m
+  [1m[35mSQL (8.5ms)[0m  UPDATE `articles` SET `articles`.`hitm` = 1 WHERE `articles`.`id` = 4113
+  Rendered articles/m_show.html.erb (1.5ms)
+Completed 200 OK in 29ms (Views: 2.7ms | ActiveRecord: 23.9ms)
+
+
+Started GET "/articles/4113.html" for 127.0.0.1 at 2014-10-30 18:52:32 +0800
+Processing by ArticlesController#m_show as HTML
+  Parameters: {"id"=>"4113"}
+  [1m[36mArticle Load (13.8ms)[0m  [1mSELECT  `articles`.* FROM `articles`  WHERE `articles`.`id` = 4113 LIMIT 1[0m
+  [1m[35mSQL (9.4ms)[0m  UPDATE `articles` SET `articles`.`hitt` = 2 WHERE `articles`.`id` = 4113
+  [1m[36mSQL (6.7ms)[0m  [1mUPDATE `articles` SET `articles`.`hitm` = 2 WHERE `articles`.`id` = 4113[0m
+  Rendered articles/m_show.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 1.4ms | ActiveRecord: 29.9ms)
+
+
+Started GET "/articles/4113.html" for 127.0.0.1 at 2014-10-30 18:52:36 +0800
+Processing by ArticlesController#m_show as HTML
+  Parameters: {"id"=>"4113"}
+  [1m[35mArticle Load (248.7ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`id` = 4113 LIMIT 1
+  [1m[36mSQL (10.9ms)[0m  [1mUPDATE `articles` SET `articles`.`hitt` = 3 WHERE `articles`.`id` = 4113[0m
+  [1m[35mSQL (8.4ms)[0m  UPDATE `articles` SET `articles`.`hitm` = 3 WHERE `articles`.`id` = 4113
+  Rendered articles/m_show.html.erb (0.6ms)
+Completed 200 OK in 272ms (Views: 1.6ms | ActiveRecord: 267.9ms)
