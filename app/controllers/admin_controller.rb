@@ -17,7 +17,7 @@ class AdminController < ApplicationController
     end
     
     # 列表数据
-    @upyuns = Upyun.all.order("updated_at DESC").page(params[:page]).per(20)
+    @upyuns = Upyun.all.order("updated_at DESC").page(params[:page]).per(10)
     
   end
   
