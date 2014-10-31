@@ -107,6 +107,7 @@ class ArticlesController < ApplicationController
   
   # 批量发布
   def admin_posting
+    return unless valid_auth? # 权限验证
     if(request.get?)
       render :template => 'articles/admin/posting.html.erb', :layout => 'admin'
     elsif(request.post?)
