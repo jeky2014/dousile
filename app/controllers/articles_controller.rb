@@ -1,3 +1,4 @@
+require "./lib/assets/parseposting.rb"
 class ArticlesController < ApplicationController
   
   #---------------- pc 版本
@@ -96,6 +97,28 @@ class ArticlesController < ApplicationController
       article = Article.find(params[:id].to_i)
       result = article.update_columns(state: 2) # 已删除状态
       render plain: (result ? 1 : 0)
+    end
+  end
+  
+  # 批量发布
+  def admin_posting
+    if(request.get?)
+      render :template => 'articles/admin/posting.html.erb', :layout => 'admin'
+    elsif(request.post?)
+      count = 0
+      content = params[:content]
+      arr = ParsePosting.new.parse(content)
+      arr.each do|item|
+        atc = Article.new
+        atc.source = 0
+        atc.state = 0
+        atc.title = item["title"]
+        atc.content = item["content"]
+        atc.sign = item["sign"]
+        atc.pubtime = Time.now.in_time_zone(-1.hours).strftime('%Y-%m-%d %H:%M:%S')
+        count = count.next if(atc.save)
+      end
+      redirect_to :action => 'admin_posting', notice: count.to_s
     end
   end
   

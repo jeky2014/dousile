@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get '/articles/(:id).html' => 'articles#m_show'
   get '/articles/create/m/success.htm' => 'articles#m_create_success'
 
+  get '/admin/articles/posting' => 'articles#admin_posting'
+  post '/admin/articles/posting' => 'articles#admin_posting'
   get '/admin/articles/new/:id' => 'articles#admin_new'
   get '/admin/articles/new' => 'articles#admin_new'
   get '/admin/articles/edit' => 'articles#admin_edit'
