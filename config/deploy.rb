@@ -31,7 +31,7 @@ end
 task :deploy do
   queue "echo '开始获取最新源码'"
   queue "cd #{deploy_to}/release/latest"
-  queue "git fetch origin master"
+  queue "git pull origin master"
   
   queue "echo '将最新源码复制到新目录'"
   queue "cp -R #{deploy_to}/release/latest #{deploy_to}/release/#{timestamp}"
