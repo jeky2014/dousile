@@ -51,7 +51,12 @@ class ArticlesController < ApplicationController
   def admin_list
     return unless valid_auth? # 权限验证
     _state = params[:state] || 0
-    @articles = Article.where(state: _state).order("pubtime DESC").page(params[:page]).per(20)
+    _sign = params[:sign] || -1
+    if(_sign == -1)
+      @articles = Article.where(state: _state).order("pubtime DESC").page(params[:page]).per(20)
+    else
+      @articles = Article.where(state: _state, sign: _sign).order("pubtime DESC").page(params[:page]).per(20)
+    end
     render :template => 'articles/admin/list.html.erb', :layout => 'admin'
   end
   

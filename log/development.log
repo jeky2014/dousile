@@ -26655,3 +26655,322 @@ Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 13:59:48 +0800
 Processing by ArticlesController#admin_new as HTML
   Rendered articles/admin/new.html.erb (1.9ms)
 Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles" for 127.0.0.1 at 2014-10-31 14:00:53 +0800
+Processing by ArticlesController#admin_list as HTML
+  [1m[35mArticle Load (1.8ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+  [1m[36m (1.6ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (31.4ms)
+Completed 200 OK in 56ms (Views: 49.1ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:00:54 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:00:54 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:00:54 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:00:54 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:00:54 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (3.3ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles/st1" for 127.0.0.1 at 2014-10-31 14:01:14 +0800
+Processing by ArticlesController#admin_list as HTML
+  Parameters: {"state"=>"1"}
+  [1m[35mArticle Load (1.2ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 1  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 1[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (4.9ms)
+Completed 200 OK in 22ms (Views: 18.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:01:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:01:15 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:01:15 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:01:15 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:01:15 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (2.2ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles" for 127.0.0.1 at 2014-10-31 14:05:03 +0800
+Processing by ArticlesController#admin_list as HTML
+  [1m[35mArticle Load (1.3ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (31.0ms)
+Completed 200 OK in 49ms (Views: 42.3ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:04 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:04 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:04 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:04 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:05:04 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (3.4ms)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles?sign=1" for 127.0.0.1 at 2014-10-31 14:05:07 +0800
+Processing by ArticlesController#admin_list as HTML
+  Parameters: {"sign"=>"1"}
+  [1m[35mArticle Load (1.4ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (20.1ms)
+Completed 200 OK in 38ms (Views: 34.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:07 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:07 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:07 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:05:07 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (1.7ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles?page=2&sign=1" for 127.0.0.1 at 2014-10-31 14:05:11 +0800
+Processing by ArticlesController#admin_list as HTML
+  Parameters: {"page"=>"2", "sign"=>"1"}
+  [1m[35mArticle Load (2.3ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1  ORDER BY pubtime DESC LIMIT 20 OFFSET 20
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (22.4ms)
+Completed 200 OK in 40ms (Views: 35.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:11 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:11 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:11 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:11 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:05:11 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (2.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles" for 127.0.0.1 at 2014-10-31 14:05:13 +0800
+Processing by ArticlesController#admin_list as HTML
+  [1m[35mArticle Load (2.0ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+  [1m[36m (1.5ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (16.9ms)
+Completed 200 OK in 31ms (Views: 26.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:13 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:13 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:05:13 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:05:13 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (1.3ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles" for 127.0.0.1 at 2014-10-31 14:06:08 +0800
+Processing by ArticlesController#admin_list as HTML
+  [1m[35mArticle Load (1.3ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (24.8ms)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:08 +0800
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:08 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:08 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:08 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:06:08 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (1.8ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles?sign=1" for 127.0.0.1 at 2014-10-31 14:06:14 +0800
+Processing by ArticlesController#admin_list as HTML
+  Parameters: {"sign"=>"1"}
+  [1m[35mArticle Load (1.5ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (18.1ms)
+Completed 200 OK in 34ms (Views: 30.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:14 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:14 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:14 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:06:14 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (2.3ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles?page=2&sign=1" for 127.0.0.1 at 2014-10-31 14:06:16 +0800
+Processing by ArticlesController#admin_list as HTML
+  Parameters: {"page"=>"2", "sign"=>"1"}
+  [1m[35mArticle Load (1.6ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1  ORDER BY pubtime DESC LIMIT 20 OFFSET 20
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (20.7ms)
+Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:16 +0800
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:16 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:16 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:16 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:06:16 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (1.5ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles?page=3&sign=1" for 127.0.0.1 at 2014-10-31 14:06:19 +0800
+Processing by ArticlesController#admin_list as HTML
+  Parameters: {"page"=>"3", "sign"=>"1"}
+  [1m[35mArticle Load (2.3ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1  ORDER BY pubtime DESC LIMIT 20 OFFSET 40
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (22.1ms)
+Completed 200 OK in 46ms (Views: 42.2ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:19 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:19 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:19 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:06:19 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (2.5ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles?sign=1" for 127.0.0.1 at 2014-10-31 14:06:25 +0800
+Processing by ArticlesController#admin_list as HTML
+  Parameters: {"sign"=>"1"}
+  [1m[35mArticle Load (1.5ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0 AND `articles`.`sign` = 1[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (21.0ms)
+Completed 200 OK in 40ms (Views: 36.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:25 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:25 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:25 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:25 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:06:25 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/articles" for 127.0.0.1 at 2014-10-31 14:06:27 +0800
+Processing by ArticlesController#admin_list as HTML
+  [1m[35mArticle Load (2.3ms)[0m  SELECT  `articles`.* FROM `articles`  WHERE `articles`.`state` = 0  ORDER BY pubtime DESC LIMIT 20 OFFSET 0
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM `articles`  WHERE `articles`.`state` = 0[0m
+  Rendered articles/admin/list.html.erb within layouts/admin (20.0ms)
+Completed 200 OK in 38ms (Views: 33.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/jquery/2.0.0/jquery.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:27 +0800
+
+
+Started GET "/assets/bootstrap/js/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:27 +0800
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2014-10-31 14:06:27 +0800
+
+
+Started GET "/admin/articles/new" for 127.0.0.1 at 2014-10-31 14:06:27 +0800
+Processing by ArticlesController#admin_new as HTML
+  Rendered articles/admin/new.html.erb (2.4ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms)
