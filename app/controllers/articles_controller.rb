@@ -115,7 +115,7 @@ class ArticlesController < ApplicationController
         atc.title = item["title"]
         atc.content = item["content"]
         atc.sign = item["sign"]
-        atc.pubtime = Time.now.in_time_zone(-1.hours).strftime('%Y-%m-%d %H:%M:%S')
+        atc.pubtime = Time.now.in_time_zone(-0.hours).strftime('%Y-%m-%d %H:%M:%S')
         count = count.next if(atc.save)
       end
       redirect_to :action => 'admin_posting', notice: count.to_s
@@ -168,7 +168,7 @@ class ArticlesController < ApplicationController
   
   # 将时间字符串转换为 UTC 时间，在保存之前修正参数
   def toUTC(timeQueryString)
-    Time.parse(timeQueryString).in_time_zone(-1.hours).strftime('%Y-%m-%d %H:%M:%S')
+    Time.parse(timeQueryString).in_time_zone(-0.hours).strftime('%Y-%m-%d %H:%M:%S')
   end
   
   # 后台权限验证
