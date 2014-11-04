@@ -5,7 +5,7 @@ class ArticlesController < ApplicationController
   
   def index
     @articles = Article.where(state: 0, haspic: 1).order("rand()").limit(5)
-    render :template => 'articles/pc_index.html.erb', :layout => nil
+    render :template => 'articles/pc_index_temp.html.erb', :layout => nil
   end
   
   def pc_show
